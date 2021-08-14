@@ -28,7 +28,7 @@ document.querySelector("#submit").addEventListener("click", () => {
         hexcodec += hex_numbers[random_index];
     }
 // https://forum.freecodecamp.org/t/gradual-css-linear-gradient/195068
-    document.getElementById("mixcontainer").style.background = `linear-gradient(-45deg, #${hexcodea}, #${hexcodeb},#${hexcodec})`;
+    document.getElementById("mixcontainer").style.background = `linear-gradient(45deg, #${hexcodea}, #${hexcodeb},#${hexcodec})`;
     document.querySelector("#hexcodea").textContent = hexcodea;
     document.querySelector("#hexcodeb").textContent = hexcodeb;
     document.querySelector("#hexcodec").textContent = hexcodec;

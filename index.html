@@ -12,19 +12,25 @@
 
 </head>
 <body>
-
-
-    <main>
-        <div class="container">
-          <div id="hex-colors">
-            <h1>To display a hex code for a randomly generated color</h1>
-            <button id="submit" class="btn btn-success">Click Me</button>
-            <h2> The Hex Code of the color is <span id="hexcode"></span>;
-            </h2>
-          </div>
+<main title="Click on either of the blue/green buttons to view different colors and gradient combinations">
+      <section class="plaincontainer" id="plaincontainer">
+        <div class="hex-colors">
+          <h1>Click the button below to display a hex color code of a random color</h1>
+          <h2>The hex code of the color is #<span id="hex-code1">00000</span></h2>
+          <button onclick="changePlainColor()" class="btn btn-primary" title="Click Me">Plain Color</button>
         </div>
-      </main>
+    </section>
+
+      <section class="mixcontainer" id="mixcontainer">
+        <div id="hex-colors">
+          <h1>Similarly click the button below to generate a random gradient hex color combination</h1>
+          <button id="submit" class="btn btn-success" title="Click Me">Gradient Color</button>
+          <h2>background: linear-gradient(-45deg, #<span id="hexcodea">00000</span>, #<span id="hexcodeb">00000</span>,#<span id="hexcodec">00000</span>);
+          </h2>
+        </div>
+    </section>
+</main>
+      <script src="script.js"></script>
     
-    <script type="text/javascript" src="./script.js"></script>
-</body>
-</html>
+    </body>
+    </html>

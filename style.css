@@ -49,7 +49,9 @@ body{
   .hex-colors h2, #hex-colors h2{
     margin: 8%;
     font-size: 2rem;
+    color: #ffff;
   }
+
   
   @keyframes colorchange {
         0% {
